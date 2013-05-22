@@ -83,7 +83,6 @@
 #include "VRPNTrackerInstance.h"
 #include "VRPNAnalogInstance.h"
 #include "VRPNButtonInstance.h"
-#include "VRPNWrapper.h"
 
 // ------------------------------------------------------------------------
 // Plugin itself

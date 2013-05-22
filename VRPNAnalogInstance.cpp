@@ -163,7 +163,12 @@ void VRPNAnalogInstance::getReports(vrpn_ANALOGCB** cpy, int& cnt, timeval* ts, 
 			}
 
 		}
-		else break;
+		else;
+		{
+			if(clearReport)
+				purgeReports();
+			break;
+		}
 	}
 
 	cnt = i;
